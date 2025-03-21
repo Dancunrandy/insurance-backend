@@ -14,38 +14,39 @@ This is the back-end of the Insurance Policy Management System built with **Ruby
    ```bash
    git clone https://github.com/Dancunrandy/insurance-backend.git
    cd insurance-backend
-2. ### Install dependencies:
+2. **Install dependencies:**
 
   `bundle install`
-3. #### Set up the database:
+3. **Set up the database:**
 
  `rails db:migrate`
-4. #### Seed the database (optional):
+
+4. **Seed the database (optional):**
 
  `rails db:seed`
-5. #### Start the server:
+5.**Start the server:**
 
  `rails server`
 
-6. #### Access the API:
+6. **Access the API:**
  The API will be available at http://localhost:3000.
 
- ### API Endpoints
+ **API Endpoints**
  * GET /policies - List all policies.
 
-GET /policies/:id - Get details of a specific policy.
+ * GET /policies/:id - Get details of a specific policy.
 
-POST /policies - Create a new policy.
+ * POST /policies - Create a new policy.
 
-PUT /policies/:id - Update an existing policy.
+ * PUT /policies/:id - Update an existing policy.
 
-DELETE /policies/:id - Delete a policy.
+ * DELETE /policies/:id - Delete a policy.
 
-### Dependencies
+**Dependencies**
 
-Ruby on Rails
+ * Ruby on Rails
 
-Rack CORS (for handling cross-origin requests)
+ * Rack CORS (for handling cross-origin requests)
 
-Active Model Serializers (for JSON serialization)
+ * Active Model Serializers (for JSON serialization)
 
