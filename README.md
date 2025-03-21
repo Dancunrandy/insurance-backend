@@ -17,6 +17,7 @@ This is the back-end of the Insurance Policy Management System built with **Ruby
 2. **Install dependencies:**
 
   `bundle install`
+
 3. **Set up the database:**
 
  `rails db:migrate`
@@ -24,6 +25,7 @@ This is the back-end of the Insurance Policy Management System built with **Ruby
 4. **Seed the database (optional):**
 
  `rails db:seed`
+ 
 5.**Start the server:**
 
  `rails server`
