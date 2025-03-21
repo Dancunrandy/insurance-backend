@@ -1,25 +1,51 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Insurance Policy Management System - Backend
 
-Things you may want to cover:
+This is the back-end of the Insurance Policy Management System built with **Ruby on Rails**. It provides RESTful API endpoints for managing insurance policies.
 
-* Ruby version
+## Features
 
-* System dependencies
+- CRUD operations for insurance policies.
+- Proper error handling and validation.
 
-* Configuration
+## Setup Instructions
 
-* Database creation
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Dancunrandy/insurance-backend.git
+   cd insurance-backend
+2. ### Install dependencies:
 
-* Database initialization
+  `bundle install`
+3. #### Set up the database:
 
-* How to run the test suite
+ `rails db:migrate`
+4. #### Seed the database (optional):
 
-* Services (job queues, cache servers, search engines, etc.)
+ `rails db:seed`
+5. #### Start the server:
 
-* Deployment instructions
+ `rails server`
 
-* ...
-# insurance-backend
+6. #### Access the API:
+ The API will be available at http://localhost:3000.
+
+ ### API Endpoints
+ * GET /policies - List all policies.
+
+GET /policies/:id - Get details of a specific policy.
+
+POST /policies - Create a new policy.
+
+PUT /policies/:id - Update an existing policy.
+
+DELETE /policies/:id - Delete a policy.
+
+### Dependencies
+
+Ruby on Rails
+
+Rack CORS (for handling cross-origin requests)
+
+Active Model Serializers (for JSON serialization)
+
